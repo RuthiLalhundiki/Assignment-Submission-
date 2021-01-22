@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+    </head>
+    <body>
+        <h1>Question 1</h1>
+        <h2>Ans:</h2>
+        <h3>The output of the code will be displayed in the console and reasons will be written in the comment section of the HTML.</h3>
+
+        <script>
+            console.log(1+"2"+"2");
+            // The output is 122 due to the fact that number and strings cannot be added like normal numbers
+            console.log(1+ +"2"+"2");
+            // The output is 32 due to the ++ operator which add the number and the string like ordinary numbers but the last string only has + operator so it is not added like normal numbers
+            console.log(1+ -"1"+"2");
+            // The output is 02 due to the +- operator which subtracts the first number and and the first string
+            console.log(+"1"+"1"+"2");
+            // The output is 112 due to the + operator which made the string group together
+            console.log("A"-"B"+"2");
+            // The output is NaN2 due to the reason that "A" and "B" not numbers and NaN stands for not a number
+            console.log("A"-"B"+2);
+            // The output is NaN due to the fact that "A" and "B" are not numbers and 2 is not displayed because it is a number
+        </script>
+
+
+    </body>
+</html>
